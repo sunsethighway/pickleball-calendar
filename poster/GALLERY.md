@@ -75,6 +75,26 @@ sky, James steering, Dan hanging on and laughing.
 
 ---
 
+## Character studio: Tracey Anne
+
+A separate commission, and nothing to do with the film. Eighty years old, the
+ginger hair still up in its bun, a bird of genuinely poor character on one
+shoulder, and two small boys closing fast. Somewhere at the back, Dad has
+noticed none of it.
+
+Blue zipped fleece, green culottes, bumbag with a money belt below it, straw hat
+swinging from one hand.
+
+### Take A
+
+<img src="https://dan-of-my-dreams.higgsfield.app/assets/tracey-a-display.webp" width="420" alt="Tracey Anne as a Pixar character, eighty years old with ginger hair in a top bun, chased by two small boys">
+
+### Take B
+
+<img src="https://dan-of-my-dreams.higgsfield.app/assets/tracey-b-display.webp" width="420" alt="Tracey Anne, second take">
+
+---
+
 ## Full-size originals
 
 | Image | Size | Link |
@@ -85,6 +105,8 @@ sky, James steering, Dan hanging on and laughing.
 | The hug | 2528×1696 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/scene-hug.webp) |
 | The paddle tap | 2528×1696 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/scene-tap.webp) |
 | The ride | 2528×1696 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/scene-ride.webp) |
+| Tracey Anne, take A | 1696×2528 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/tracey-a.webp) |
+| Tracey Anne, take B | 1696×2528 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/tracey-b.webp) |
 
 ## A note on hosting
 
