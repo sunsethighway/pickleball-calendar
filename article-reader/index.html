@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>Article Reader</title>
+
+<meta name="description" content="Paste text and have it read aloud with natural voices.">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f172a">
+
+<!-- iOS home screen support -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Reader">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1>Article Reader</h1>
+</header>
+
+<main>
+  <section class="text-panel">
+    <textarea
+      id="article-text"
+      placeholder="Paste or type an article here…"
+      aria-label="Article text"
+      spellcheck="false"
+    ></textarea>
+    <div id="reader-view" class="reader-view" hidden aria-live="off"></div>
+  </section>
+
+  <section class="controls" aria-label="Playback controls">
+    <div class="transport">
+      <button id="btn-play" class="btn btn-primary" type="button" aria-label="Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        <span>Play</span>
+      </button>
+      <button id="btn-pause" class="btn" type="button" aria-label="Pause" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+        <span>Pause</span>
+      </button>
+      <button id="btn-stop" class="btn" type="button" aria-label="Stop" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>
+        <span>Stop</span>
+      </button>
+    </div>
+
+    <div class="field">
+      <label for="voice-select">Voice</label>
+      <select id="voice-select" aria-label="Voice selection">
+        <option value="">Loading voices…</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="speed-range">Speed: <span id="speed-value">1x</span></label>
+      <input type="range" id="speed-range" min="0.5" max="2" step="0.05" value="1">
+    </div>
+
+    <p id="status-line" class="status-line" aria-live="polite"></p>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
