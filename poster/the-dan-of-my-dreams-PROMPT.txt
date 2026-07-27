@@ -1,0 +1,17 @@
+Model: nano_banana_pro | Aspect ratio: 2:3 | Resolution: 2k
+
+A vertical theatrical movie poster for an animated family feature film, rendered in modern Pixar-style 3D CG animation: soft subsurface-scattering skin, warm cinematic rim lighting, slightly caricatured but affectionate character proportions, glossy hair cards, rich depth of field.
+
+LOWER THIRD OF POSTER — THE DREAMER: A cheerful man in his late thirties named JAMES, fast asleep. He has tousled sandy-blond hair swept up in a soft quiff, a full ginger-blond beard and moustache, ruddy cheeks, a white t-shirt and black sports shorts, sturdy athletic build. He is curled up sideways in a folding camping chair under a white pop-up gazebo at dusk, cheek squashed against the chair fabric, mouth in a blissful sleepy smile, hugging a green pickleball paddle like a teddy bear. Tiny glowing golden 'z z z' curl up from him.
+
+UPPER TWO THIRDS — THE DREAM: The gazebo canopy above him dissolves upward into a swirling twilight dream-sky of indigo, teal and violet clouds. Floating in the middle of that dream sky, larger than life and gloriously backlit, is DAN: a slim, beaming young man with short mid-brown hair, thin-rimmed tinted aviator glasses, an enormous joyful grin, heather-grey t-shirt and light blue shorts. He is soaring through the clouds standing on a pickleball paddle like a surfboard, arms flung wide, a cape of warm festoon string-lights streaming behind him, laughing.
+
+DREAM DETAILS: neon-yellow perforated pickleballs drifting through the sky like little glowing planets and stars, a staircase of floating paddles winding up through the clouds, fireflies, a big soft moon behind Dan, shafts of golden light breaking through the cloud bank, a distant dreamy pickleball court glowing far below among the clouds.
+
+COLOUR: deep twilight teal and indigo sky against warm gold and neon-yellow key light. Highly polished, luminous, magical, heart-warming.
+
+POSTER TYPOGRAPHY (must be spelled exactly, crisp and legible):
+- Small line above the title, elegant thin uppercase letterspaced type: HE'S NOT IN HIS HEAD. HE'S IN HIS REM CYCLE.
+- The MAIN TITLE across the lower centre, very large, in a chunky rounded three-dimensional animated-film title face with soft bevels, a warm gold-to-cream gradient, gentle outer glow and a subtle drop shadow, set on three lines with 'DREAMS' largest: THE DAN OF MY DREAMS
+- A small clean uppercase line at the very bottom: SUMMER 2026 — ONLY IN DREAMS
+No other text anywhere. No studio logos, no watermarks, no real-world brand marks. Clean margins, balanced classic one-sheet composition.
