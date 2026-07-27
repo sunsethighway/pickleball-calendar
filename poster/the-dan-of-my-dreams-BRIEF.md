@@ -13,11 +13,12 @@ backlit, delighted with himself — surfing the clouds on a pickleball paddle.
 
 | Character | Who they are in the photo | Look |
 | --- | --- | --- |
-| **James** — the dreamer | Right of frame | Late thirties, tousled sandy-blond quiff, full ginger-blond beard and moustache, ruddy cheeks, white tee, black sports shorts, sturdy build, easy grin |
+| **James** — the dreamer | Right of frame | Late thirties, tousled sandy-blond quiff, neat ginger-blond beard and moustache, warm blue eyes, white tee, black sports shorts, easy grin. **Lean and wiry — a runner's build, narrow waist, slender arms and legs. Not stocky.** |
 | **Dan** — the dream | Left of frame | Slim, short mid-brown hair, thin-rimmed tinted glasses, enormous beaming smile, heather-grey tee, light blue shorts |
 
 ## Title treatment
 
+- **Studio bar (top):** SUFFOLK PICKLE STUDIOS
 - **Title:** THE DAN OF MY DREAMS
 - **Tagline:** HE'S NOT IN HIS HEAD. HE'S IN HIS REM CYCLE.
 - **Footer:** SUMMER 2026 — ONLY IN DREAMS
@@ -45,6 +46,18 @@ backlit, delighted with himself — surfing the clouds on a pickleball paddle.
 
 Deep twilight teal and indigo sky against warm gold and neon-yellow key light.
 Polished, luminous, heart-warming.
+
+## Companion scenes
+
+Three film stills in the same world, 3:2 landscape, no type on any of them:
+
+1. **The hug** — a huge bear hug on court at golden hour, both mid-laugh with
+   eyes squeezed shut, paddles dropped at their feet, a pickleball rolling away.
+2. **The paddle tap** — the classic post-point tap at the net, low hero angle,
+   a burst of sparkle where the paddle faces meet, ball frozen mid-air behind.
+3. **The ride** — both astride a planet-sized neon-yellow pickleball hurtling
+   through the dream sky, James steering, Dan hanging on and laughing, stardust
+   trailing behind.
 
 ## Render settings
 
