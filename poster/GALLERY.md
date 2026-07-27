@@ -1,5 +1,8 @@
 # THE DAN OF MY DREAMS — gallery
 
+> **Live press-kit site: https://dan-of-my-dreams.higgsfield.app**
+> The images are baked into that site, not hot-linked, so it stands on its own.
+
 A Pixar-style one-sheet and three companion stills for a fictional animated
 feature, built from a photo of Dan and James at a pickleball meet.
 
