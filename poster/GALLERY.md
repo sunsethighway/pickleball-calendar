@@ -33,6 +33,23 @@ soars through it on a paddle, cape of festoon lights streaming behind him.
 
 ---
 
+## The promo
+
+Ten seconds, cut for a phone. Chest badge, then a rally, then the whole club,
+then the two of them grinning down the lens. Four beats lifted from the running
+order of RallyPoint's own Short and rebuilt in the dream world.
+
+1080×1920 vertical, with sound.
+
+[![Play the ten second promo](https://dan-of-my-dreams.higgsfield.app/assets/promo-poster.webp)](https://dan-of-my-dreams.higgsfield.app#the-promo)
+
+**▶ [Play it on the press-kit site](https://dan-of-my-dreams.higgsfield.app)**  ·  [Download the MP4](https://dan-of-my-dreams.higgsfield.app/assets/promo.mp4)
+
+> GitHub strips `<video>` from repository markdown, so the frame above is the
+> clip's poster image rather than an inline player. Both links play it properly.
+
+---
+
 ## The scenes
 
 ### The hug
@@ -62,6 +79,7 @@ sky, James steering, Dan hanging on and laughing.
 
 | Image | Size | Link |
 | --- | --- | --- |
+| The promo (10s, sound) | 1080×1920 | [MP4](https://dan-of-my-dreams.higgsfield.app/assets/promo.mp4) |
 | Poster, take A | 1696×2528 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/poster-a.webp) |
 | Poster, take B | 1696×2528 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/poster-b.webp) |
 | The hug | 2528×1696 | [WebP](https://dan-of-my-dreams.higgsfield.app/assets/scene-hug.webp) |

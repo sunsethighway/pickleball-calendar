@@ -66,7 +66,12 @@
     border-radius: 14px;
     overflow: hidden;
   }
-  figure img { display: block; width: 100%; height: auto; }
+  figure img, figure video { display: block; width: 100%; height: auto; }
+  .promo { display: grid; gap: 1.5rem; align-items: center; }
+  @media (min-width: 42rem) { .promo { grid-template-columns: 19rem minmax(0, 1fr); gap: 2.5rem; } }
+  .promo figure { max-width: 19rem; }
+  .promo .blurb { color: var(--muted); }
+  .promo .blurb strong { color: var(--ink); font-weight: 600; }
   figcaption {
     padding: 0.7rem 0.95rem;
     font-size: 0.82rem;
@@ -120,6 +125,31 @@
       <img src="https://dan-of-my-dreams.higgsfield.app/assets/poster-b-display.webp" alt="The Dan of My Dreams poster, take B">
       <figcaption><span>Take B · 1696×2528</span><a href="https://dan-of-my-dreams.higgsfield.app/assets/poster-b.webp">Full size</a></figcaption>
     </figure>
+  </div>
+</section>
+
+<section>
+  <h2>The promo</h2>
+  <p class="cap">
+    Ten seconds, cut for a phone. Four beats lifted from the running order of
+    RallyPoint's own Short and rebuilt in the dream world.
+  </p>
+  <div class="promo">
+    <figure>
+      <video controls playsinline preload="metadata"
+             poster="https://dan-of-my-dreams.higgsfield.app/assets/promo-poster.webp">
+        <source src="https://dan-of-my-dreams.higgsfield.app/assets/promo.mp4" type="video/mp4">
+        Your browser cannot play this clip.
+        <a href="https://dan-of-my-dreams.higgsfield.app/assets/promo.mp4">Download the MP4</a>.
+      </video>
+      <figcaption><span>1080×1920 · 10s · sound</span><a href="https://dan-of-my-dreams.higgsfield.app/assets/promo.mp4">Download</a></figcaption>
+    </figure>
+    <p class="blurb">
+      <strong>Chest badge</strong>, pushing in on the Rally Point script and tilting up to a grin.
+      <strong>A rally</strong>, low and fast, James lunging to dink while Dan covers behind.
+      <strong>The whole club</strong>, a wide of players of all ages across the courts.
+      <strong>The two of them</strong>, shoulder to shoulder down the lens, paddle tap and a thumbs up.
+    </p>
   </div>
 </section>
 
