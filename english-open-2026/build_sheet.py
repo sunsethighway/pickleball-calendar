@@ -294,6 +294,48 @@ def build_all_players(wb, rows):
     return ws
 
 
+NOTES = [
+    ("Where this came from",
+     "Transcribed from the tournament's Schedule & Results screens on PickleBook, "
+     "filtered to each player in turn. 64 unique matches across the ten of us."),
+    ("How it was checked",
+     "Each player's match count reconciles exactly against the entry total PickleBook "
+     "showed on their filtered view. No player was double-booked and no two matches "
+     "sit close together in different zones."),
+    ("Names",
+     "As registered on PickleBook — Will Cheeseman (not William), and Tracey-Anne "
+     "under Greenhow."),
+    ("Withdrawal",
+     "Match #15652, Sunday 14:40 on Court 47 — Holly and James's opponents are struck "
+     "out on PickleBook and marked withdrawn."),
+    ("Times",
+     "Scheduled starts only. Tournament days drift; the live board at the venue wins."),
+    ("One thing unverified",
+     "Every source view had the Status filter set to 'A'. If that is a status code "
+     "rather than 'All', fixtures in other states would not appear here."),
+]
+
+
+def build_notes(wb):
+    ws = wb.create_sheet("Notes")
+    title_block(ws, "Notes", "Worth reading once before the weekend", 2, "F2D5D9")
+    ws.column_dimensions["A"].width = 26
+    ws.column_dimensions["B"].width = 96
+    r = 4
+    for heading, body in NOTES:
+        h = ws.cell(row=r, column=1, value=heading)
+        h.font = Font(name="Calibri", size=10, bold=True, color=INK)
+        h.alignment = Alignment(horizontal="left", vertical="top", indent=1)
+        b = ws.cell(row=r, column=2, value=body)
+        b.font = Font(name="Calibri", size=10, color=INK)
+        b.alignment = Alignment(horizontal="left", vertical="top", wrap_text=True, indent=1)
+        for c in (1, 2):
+            ws.cell(row=r, column=c).border = Border(bottom=thin)
+        ws.row_dimensions[r].height = 34
+        r += 1
+    return ws
+
+
 def build(rows, per_player_tabs):
     """per_player_tabs builds the full workbook (a tab each for the ten players).
     Without it you get the compact workbook — Overview plus the three day tabs —
@@ -307,6 +349,7 @@ def build(rows, per_player_tabs):
         build_all_players(wb, rows)
         for player, accent in PLAYERS.items():
             build_player(wb, rows, player, accent)
+    build_notes(wb)
     for ws in wb.worksheets:
         ws.sheet_view.showGridLines = False
     return wb
